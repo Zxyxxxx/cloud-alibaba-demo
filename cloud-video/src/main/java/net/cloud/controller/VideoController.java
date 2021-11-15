@@ -15,7 +15,7 @@ public class VideoController {
     @Autowired
     private VideoService videoService;
 
-    @GetMapping("/findVideoById")
+    @GetMapping("/findVideoByIdsssss")
     public Object findVideoById(int videoId){
         Video video = videoService.findVideoById(videoId);
         return video;
