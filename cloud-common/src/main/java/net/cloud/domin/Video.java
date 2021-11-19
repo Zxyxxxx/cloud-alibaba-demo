@@ -13,6 +13,15 @@ public class Video {
     private Date createTime;
     private Double point;
 
+    private String serverInfo;
+
+    public String getServerInfo() {
+        return serverInfo;
+    }
+
+    public void setServerInfo(String serverInfo) {
+        this.serverInfo = serverInfo;
+    }
 
     public Integer getId() {
         return id;

@@ -8,6 +8,10 @@ spring:
     url: jdbc:mysql://cdb-74dzrury.bj.tencentcdb.com:10217/cloud-alibaba?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: 1qazxsw2
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 49.235.217.253:8848
 # 控制台输出sql、下划线转驼峰
 mybatis:
   configuration:
